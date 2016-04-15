@@ -1,0 +1,244 @@
+/*
+	CSS created by Stjepan Erdeljac 2015
+	COMP - 1850 Web Development and Design 1
+	Finished by June 27, 2015
+	
+	Content of this page is the default outline; applicable to all 
+	pages. The value of the declarations are subject to change via
+	internal CSS. Check <style> tag for changes.	
+	
+	NOTE: For easy navigation in Notepad++, click on the top:
+		View > Document Map
+	
+*/
+
+/*********************************************************************
+*      Container (applies to all pages)                              *
+*********************************************************************/
+
+#container {
+	width: 980px;
+	overflow: hidden;
+	margin: 55px auto 0;
+	padding: 0;
+	background-color: #0B1726;
+	}
+	
+a {text-decoration: none; color: black;}
+ul {list-style: none;}
+@font-face {font-family: harabara; src: url(Harabara.otf); }
+
+
+/*********************************************************************
+*      Navigation bar (applies to all pages)                         *
+*********************************************************************/
+
+nav {
+	background: white;
+	position: fixed;
+	padding: 0;
+	height: 40px;
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	}
+	
+nav ul {
+	padding: 0;
+	border: none;
+	text-transform: uppercase;
+	font-size: 23px;
+	font-weight: bold;
+	font-family: Rockwell, "times new roman", sans-serif;
+	list-style: none;
+	margin: auto;
+	}
+
+nav li{
+	float: left;
+	margin: 5px auto;
+	width: 16.6%;
+	color: black;
+	}
+	
+nav a {color: black;}
+	
+nav li:hover {
+	margin: auto;
+	padding: 4px 0;
+	background-color: #B3B3B3;
+	height: 32px;
+	}
+
+/********************************************************************
+*     Header and banner of the page (applies to all pages)          *
+********************************************************************/
+
+header {
+	margin: auto;
+	padding: 0;
+	width: 980px;
+	height: 100px;
+	background-image: url(../images/banner.png);
+	}
+	
+#logo {
+	height: 100px;
+	width: 120px;
+	float: left;
+	}
+
+#logon {
+	width: 320px;
+	height: 80px;
+	float: right;
+	padding: 12px 0;
+	}
+	
+#logon table {border-collapse: collapse; float: right; margin-right: 10px;}
+#logtype1 {font-weight: bold;}
+#logtype2 {font-size: 14px;}
+#logtype2 a:hover {color: white; text-decoration: underline;}
+#logtype2 input {margin: 3px;}
+ 
+#login, #pass {
+	border: 1px solid grey;
+	background-color: #222222;
+	color: #E8E8E8;
+	width: 130px;
+	}
+
+header strong {font-size: 18px; color:#FFFF80;}
+
+#pagetitle a {color:#C0C0FF;}
+#pagetitle a:hover {color:#ff00ff; text-decoration:underline;}
+
+/********************************************************************
+*     Default body of the page                                      *
+********************************************************************/
+
+body {background: url(../images/bg.jpg) repeat-y fixed #000000;	background-position: center; }
+.border {margin: auto; border: 2px dashed #888888;}
+
+#pagetitle {
+	color: white;
+	font-family: latha, sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	padding: 0 0 0 30px;
+	}
+
+/********************************************************************
+*     Main content of the site page (may vary)                      *
+********************************************************************/
+
+main {
+	margin: 5px auto 0;
+	padding: 10px 5px;
+	width: 980px;
+	background-color: #0B1726;
+	}
+	
+.break {
+	margin: auto;
+	padding: 0;
+	width: 940px;
+	height: 20px;
+	overflow: hidden;
+	}
+
+#featureevent {
+	margin: 10px auto 10px;
+	padding: 0;
+	width: 900px;
+	}
+
+#feattext {
+	position: absolute;
+	color: white; 
+	text-align: center;
+	font-size: 50px;
+	font-family:rockwell;
+	font-style: italic;
+	margin: auto; 
+	width: 220px;
+	height: 180px;
+	padding-top: 30px;
+	}
+	
+#feature {display: block; margin: 0 auto 10px;float: right; }
+.evtgrp img {display: block; margin: 2px auto 30px;}
+.evtgrp a {color: white;}
+	
+.evtgrp {
+	margin: 10px;
+	padding: 2px;
+	width: 300px;
+	float: left;
+	height: 500px;
+	}
+
+.eventinfo {
+	margin: 10px auto;
+	padding: 0;
+	width: 300px;
+	}
+
+.evtline {
+	width: 1px;
+	height: 550px;
+	float: left;
+	margin: 5px auto;
+	background-color: white;
+	}
+
+.title {font-family: harabara, "Times New Roman", Serif; font-size: 27px;}
+.title span {color: #909090;}
+.desc {font-size: 20px;}
+.loca {text-align: right; font-weight: bold; font-size: 22px;}
+
+
+/********************************************************************
+*     Footer of the page (applies to all pages)                     *
+********************************************************************/
+
+footer {
+	margin: auto;
+	padding: 0;
+	width: 980px;
+	border-top: 5px solid black;
+	height: 260px;
+	background-color: #213661;
+	font-weight: bold;
+	}
+
+footer a:hover {color: white;}
+#tblhead td {font-weight: bold; font-size: 20px;}
+
+.foothead {
+	width: 315px;
+	height: 30px;
+	text-indent: 30px;
+	padding: 0;
+	margin: 0;
+	}
+	
+.footline {
+	margin: auto 5px;
+	width: 3px;
+	height: 100%;
+	background-color: black;
+	}
+	
+#tblbody td {
+	width: 315px;
+	height: 115px;
+	padding: 0 20px;
+	margin: 0;
+	font-size: 17px;
+	}
+
+#copyright {text-align: center; font-style: italic; font-size: 20px; background: #8196C1;}
+#email:hover{color: #9090FF; text-decoration: underline}
+.weresorry {color:red;}

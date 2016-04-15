@@ -1,0 +1,68 @@
+/*
+	CSS created by Stjepan Erdeljac 2015
+	COMP - 1850 Web Development and Design 1
+	Finished by June 27, 2015
+	
+	Content of this page is designed for the list of events 
+	for each city. This CSS overrides the default.css file
+	but may contain its selectors and attributes.
+	
+	NOTE: For easy navigation in Notepad++, click on the top:
+		View > Document Map
+	
+*/
+@font-face {font-family: harabara; src: url(Harabara.otf); }
+
+main {
+	width: 940px; 
+	margin: auto;
+	font-family: serif;
+	}
+	
+.eventcell {
+	width: 935px; 
+	height: 170px; 
+	margin: 2px auto; 
+	background: #909090;
+	}
+	
+.postimg {
+	margin: 15px 20px;
+	border: 2px solid black;
+	float: left;
+	width: 190px;
+	height: 140px;
+	background: white;
+	}
+
+.postimg:hover {border: 2px solid white;}
+
+.postinfo {
+	width: 680px;
+	height: 155px;
+	margin: 10px 5px;
+	float: right;
+	background: ;
+	}
+
+.title {
+	font-family: harabara, "Times New Roman", sans-serif;
+	font-weight: bold;
+	}
+	
+.date {margin-left:1px;}
+
+.location {
+	text-align: right;
+	float:right;
+	font-weight: bold;
+	margin-right: 10px;
+	width:300px;
+	}
+
+.locationref {color: black;}
+.locationref:hover {color: #A010A0;}
+	
+#eventbreak {border: 3px groove white;}
+#noevents {color:white; text-align: center;}
+
