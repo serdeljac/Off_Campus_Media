@@ -26,7 +26,7 @@
 				<tr id="logtype2">
 					<td><a href="forgot.php">Forget your password?</a></td>
 					<td><a href="signup.php"><strong>Sign Up!</strong></a></td>
-					<td><button type="submit" value="signin">Sing In</button></td>
+					<td><button type="submit" value="signin">Sign In</button></td>
 				</tr>
 			</table>
 		</div>	
